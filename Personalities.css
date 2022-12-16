@@ -1,0 +1,128 @@
+body {
+  background: #1b1b1b;
+  color: white;
+  margin: 0;
+  overflow-y: scroll;
+  margin-top: 85px;
+}
+body > h1 {
+  font-family: 'Gambetta', serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  font-weight: 100;
+  transition: letter-spacing 0.2s ease-in-out, font-weight 0.2s ease-in-out;
+}
+body > h1:hover {
+  letter-spacing: 2px;
+  
+}
+body > h6 {
+  text-align: center;
+  background-color: black;
+  font-size: 20px
+}
+
+.Introduction-Wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.Introduction-Images {
+  display: flex;
+  border: 2px solid white;
+  flex-direction: column;
+  width: 45%;
+  margin: 0 10px 10px 10px;
+}
+
+.Introduction-Description {
+  margin: 0 0 0 30px;
+}
+
+.PeopleList-Wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.PeopleList-Column {
+  display: flex;
+  flex-direction: column;
+  width: calc(100%/3);
+  height: 100%;
+}
+
+.PeopleList-Person {
+  border: 1px solid white;
+  margin: 5px;
+  word-wrap: break-word;
+  font-family: ;
+  border-radius: 5px;
+}
+
+
+.PeopleList-Person > h1 {
+  text-align: center;
+  margin-top: 
+}
+
+.PeopleList-Image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.PeopleList-Person:hover {
+  border: none;
+}
+
+.PeopleList-Person:hover > .Information {
+  display: block;
+  height: auto;
+  background-color: #121212;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid white;
+  overflow-y: hidden;
+}
+
+.Information {
+  height: 0;
+  display: none;
+  text-rendering: optimizeLegibility;
+  letter-spacing: 1px;
+}
+
+.outline-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+}
+
+.outline-in:before {
+  pointer-events: none;
+  content: '';
+  position: absolute;
+  border: #e1e1e1 solid 4px;
+  top: -13px;
+  right: -13px;
+  bottom: -13px;
+  left: -13px;
+  opacity: 0;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: top, right, bottom, left;
+  transition-property: top, right, bottom, left;
+}
+
+.outline-in:hover:before, .outline-in:focus:before, .outline-in:active:before {
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  opacity: 1;
+}
