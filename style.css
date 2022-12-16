@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+}
+
+#Sections {
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+}
+
+.Sections-Article {
+  box-shadow: inset 0 0 100px black;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-attachment: fixed;
+}
+
+#Sections-Main {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: url(Army.jpg);
+  background-size: cover;
+  color: white;
+}
+
+#Sections-Main > h1 {
+  
+  position: absolute;
+  font-size: 50px;
+  bottom: 0;
+  left: 20px;
+  text-align: center;
+}
+
+#Sections-Main > h3 {
+  position: absolute;
+  bottom: 55px;
+  left: 20px;
+  font-size: 30px;
+}
+
+#Sections-Main > h6 {
+  position: absolute;
+  bottom: 15px;
+  left: 25px;
+}
+#Sections-PoliticalBG {
+  background-image: url(The-Trumpet-Calls.jpg);
+  background-size: cover;
+}
+#Sections-Personalities {
+  background-image: url(Trench-Soldiers.jpg);
+  background-size: cover;
+}
+#Sections-WWT {
+  background-image: url(Anti-Aircraft-Gun.jpg);
+  background-size: cover;
+}
+#Sections-Americans {
+  background-image: url(77-Squadron-in-the-Air.jpg);
+  background-size: cover;
+}
+#Sections-Effects {
+  background-image: url(Destroyed-Altar.jpg);
+  background-size: cover;
+}
+#Sections-FAQ {
+  background-image: url(Army.jpg);
+  background-size: cover;
+}
+
+.Section-Background {
+  position: absolute;
+  height: 100%;
+}
+
+.SA-Content_Wrapper {
+  background-color: #522d12;
+  box-shadow: inset 0 0 20px black;
+  font-family: ;
+  color: white;
+  
+  display: grid;
+  justify-content: center;
+  
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.SA-Content_Wrapper > h1 {
+  text-align:center;
+  color:white;
+  font-size: 70px;
+  margin: 30px 0 0 0;
+  font-family: serif;
+}
+
+.SA-Content_Wrapper > p {
+  text-align:center;
+  margin: 20px 20px 20px 20px
+}
+
+.Sections-Article:hover {
+  box-shadow: inset 0 0 0 black;
+  transition: box-shadow 2s;
+  transition-timing-function: linear;
+}
+
+.RedirectButton {
+  margin: 10px;
+  background-color: #470000;
+  border: black solid 2px;
+}
+
+
+button:hover {
+  background-color: red;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
