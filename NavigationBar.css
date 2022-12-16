@@ -1,0 +1,71 @@
+a {
+  color: #ff5050;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+  color: white;
+}
+
+#Credits {
+  color: darkred;
+  font-size: 15px;
+}
+
+.Navigation_Bar {
+  display: flex;
+  position: fixed;
+  width: 100vw;
+  background-color: red;
+  top:0;
+  padding: 10px;
+  z-index: 100;
+}
+
+.Navigation_Bar-SECTION {
+  width: calc(100%/3);
+}
+
+#Navigation_Bar-RIGHT {
+  display: grid;
+  justify-content: right;
+}
+
+#WW1Logo {
+  display: inline-block;
+  color: white;
+  border: solid white;
+  margin: 0;
+  cursor: pointer;
+}
+
+
+.Navigation_Options {
+  list-style: none;
+  font-family: Helvetica;
+  background-color: #330000;
+  visibility: hidden;
+  position: absolute;
+  right: 40px;
+  top:30px;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+  border: white dotted 2px;
+}
+
+.Navigation_Options:hover {
+  visibility: visible;
+}
+
+.Menu_Button {
+  position: absolute;
+  right: 50px;
+  cursor: pointer;
+}
+
+.Menu_Button:hover ~ .Navigation_Options {
+  visibility: visible;
+}
