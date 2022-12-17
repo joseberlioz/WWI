@@ -11,7 +11,6 @@ h1 {
 }
 
 .card {
-  background-color:#ffffff;
   max-width: 600px;
   margin: auto;
   text-align: center;
@@ -25,11 +24,12 @@ h1 {
 }
 
 .card h2 {
-  color: #004D40;
+  color: #00a287;
   font-size: 24px;
 }
 
 .card p {
+  color: white;
   font-size: 18px;
   margin: 20px;
 }
