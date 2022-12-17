@@ -1,0 +1,35 @@
+body {
+  background: #282828;
+  margin: 0;
+}
+
+p {
+  color: black;
+}
+h1 {
+  font-weight: bold;
+}
+
+.card {
+  background-color:#ffffff;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  border-radius: 5px;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgb(251, 251, 251);
+}
+
+.card h2 {
+  color: #004D40;
+  font-size: 24px;
+}
+
+.card p {
+  font-size: 18px;
+  margin: 20px;
+}
